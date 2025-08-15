@@ -1,0 +1,53 @@
+<mvc:View
+    controllerName="com.ui5.trng.exercise1.controller.exercise1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:sap.ui.layout.form="sap.ui.layout.form"
+    xmlns:sap.ui.core="sap.ui.core"
+    xmlns:core="sap.ui.core">
+
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <sap.ui.layout.form:SimpleForm
+                editable="true"
+                layout="ResponsiveGridLayout"
+                id="form0">
+
+                <sap.ui.layout.form:content>
+                    <Label text="Name" id="label0"/>
+                    <Input width="100%" id="input0"/>
+
+                    <Label text="Street/No" id="label1_copy3"/>
+                    <Input width="100%" id="input1"/>
+                    <Input width="100%" id="input2"/>
+
+                    <Label text="Zip Code/City" id="label1"/>
+                    <Input width="100%" id="input3"/>
+                    <Input width="100%" id="input4"/>
+
+                    <Label text="Country" id="label1_copy6"/>
+                    <Select id="select0">
+                        <items>
+                            <core:Item key="england" text="England" id="item_england"/>
+                            <core:Item key="germany" text="Germany" id="item_germany"/>
+                            <core:Item key="usa" text="USA" id="item_usa"/>
+                            <core:Item key="philippines" text="Philippines" id="item_philippines"/>
+                        </items>
+                    </Select>
+
+                    <Label text="Label 2" id="label1_copy"/>
+                    <Label text="Label 2" id="label1_copy2"/>
+                    <Label text="Label 2" id="label1_copy4"/>
+                    <Label text="Label 2" id="label1_copy5"/>
+                </sap.ui.layout.form:content>
+            </sap.ui.layout.form:SimpleForm>
+
+            <HBox width="100%" id="hbox0" justifyContent="End">
+                <items>
+                    <Button text="Save" id="button0" type="Accept"/>
+                    <Button text="Clear" id="button1" type="Reject" press="onClickClear"/>
+                </items>
+            </HBox>
+        </content>
+    </Page>
+</mvc:View>
