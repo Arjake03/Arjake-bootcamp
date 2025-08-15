@@ -1,8 +1,6 @@
-<mvc:View 
-    controllerName="com.ui5.trng.cssactivity.controller.css_activity"
+<mvc:View controllerName="com.ui5.trng.cssactivity.controller.View2"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    
     <Page id="page1" title="{i18n>title}" class="headerTitle">
         <customHeader>
             <Bar id="bar2">
@@ -14,8 +12,8 @@
         <footer>
             <Bar id="bar3" class="footerBar">
                 <contentRight>
-                    <Button id="btn2" text="Back" press="onPage2ToPage1"/>
-                    <Button id="btn3" text="Exit" press="onThanksPress"/>
+                    <Button id="btn2" text="Back" press="onBackPress"/>
+                    <Button id="btn3" text="Exit" press="onExitPress"/>
                 </contentRight>
             </Bar>
         </footer>

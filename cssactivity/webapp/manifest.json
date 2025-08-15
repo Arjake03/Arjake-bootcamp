@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
       "version": "1.18.4",
-      "toolsId": "cbcec776-1df2-4117-9d16-7faec12068be"
+      "toolsId": "d0fb7643-f8f8-4929-a84a-3714ed8d3f3d"
     }
   },
   "sap.ui": {
@@ -74,17 +74,26 @@
       },
       "routes": [
         {
-          "name": "Routecss_activity",
+          "name": "Routecssactivity",
           "pattern": ":?query:",
           "target": [
-            "Targetcss_activity"
+            "Targetcssactivity"
           ]
+        },
+        {
+          "name": "RouteView2",
+          "pattern": "view2",
+          "target": ["TargetView2"]
         }
       ],
       "targets": {
-        "Targetcss_activity": {
-          "id": "css_activity",
-          "name": "css_activity"
+        "Targetcssactivity": {
+          "id": "cssactivity",
+          "name": "cssactivity"
+        },
+        "TargetView2":{
+          "id": "View2",
+          "name": "View2"
         }
       }
     },

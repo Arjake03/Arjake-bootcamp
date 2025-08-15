@@ -1,1 +1,42 @@
-/* Enter your custom styles here */
+/* Header title styling */
+.headerTitle {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #2c3e50;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* Footer bar styling */
+.footerBar {
+  background-color: yellow;
+  border-top: 1px solid yellow;
+  border-bottom: 3px solid yellow; /* Yellow highlight at bottom */
+  padding: 0.5rem;
+}
+
+/* Header bar styling */
+#bar0 {
+  border-bottom: 3px solid yellow; /* Yellow highlight at bottom of header */
+}
+
+/* Button styling (optional override) */
+.sapMBtn {
+  margin-left: 0.5rem;
+}
+
+/* Page background */
+.sapMPage {
+  background-color: #f9f9f9;
+}
+
+/* Label styling inside header */
+.sapMLabel.headerTitle {
+  font-size: 1.25rem;
+  color: #34495e;
+}
+
+/* Add hover effect to buttons */
+.sapMBtn:hover {
+  background-color: #d0e6f7;
+}
